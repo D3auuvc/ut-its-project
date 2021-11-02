@@ -28,7 +28,6 @@ def aggregate_data_file(filename):
 	data_file = Path(filename).with_suffix('.h5')
 	aggr_filename = filename + '_aggregated'
 	aggr_filename_ext = Path(aggr_filename).with_suffix('.h5')
-	print(data_file, aggr_filename_ext)
 	data = load_h5_file(data_file)
 	parts = []
 	for index in range(0, 288, 12):
