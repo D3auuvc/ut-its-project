@@ -30,6 +30,7 @@ VOLUMECHANNELSELS = [(0, 'volume_NE'), (2, 'volume_NW'),
 ADMIN_LEVELS = [8, 10]
 ADMIN_LEVEL_9 = 9
 ADMIN_LEVEL_8 = 8
+ADMIN_LEVEL_10 = 10
 
 # 
 
